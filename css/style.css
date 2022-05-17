@@ -1,0 +1,1065 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    margin-bottom: 250px;
+}
+
+.container {
+    max-width: 1094px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__top {
+    position: relative;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0;
+}
+
+.header__logo-small {
+    display: none;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list-items + .header__list-items {
+    margin-left: 43px;
+}
+
+.header__list-item {
+    font-weight: 700;
+font-size: 24px;
+line-height: 14px;
+letter-spacing: 1.75px;
+text-transform: uppercase;
+    color: #000;
+}
+
+.header__content {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #81DBAE;
+}
+
+.header__video {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.slogan {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 15;
+}
+
+.header__video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+
+.video {
+    position: relative;
+    height: auto;
+    max-width: 1064px;
+}
+
+.frame {
+    content: '';
+    height: 98px;
+    width: 1800px;
+    position: absolute;
+    z-index: 2;
+    background-color: #81DBAE;
+
+}
+
+.second-frame {
+    content: '';
+    height: 98px;
+    width: 1800px;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #81DBAE;
+
+}
+
+.beginning {
+    margin-bottom: 200px;
+}
+
+.beginning__content {
+    display: flex;
+}
+
+.beginning__content-second {
+    position: absolute;
+    top: 1350px;
+    left: 38%;
+    display: flex;
+}
+
+.beginning__content-red {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    top: 1710px;
+    left: 48%;
+}
+
+.beginning__content-orange {
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top: 1955px;
+    left: 37%;
+}
+
+.beginning__content-marine {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    z-index: 6;
+    top: 2200px;
+    left: 20%;
+}
+
+.beginning__content-purple {
+    display: flex;
+    position: absolute;
+    z-index: 6;
+    top: 2460px;
+    left: 40%;
+}
+
+.beginning__info {
+    max-width: 200px;
+    margin-top: auto;
+}
+
+.beginning__info-second {
+    margin: 0 0 auto 0;
+}
+
+.beginning__info-red {
+    margin: auto 0;
+}
+
+.year {
+    margin-bottom: 13px;
+    font-weight: 700;
+font-size: 29px;
+line-height: 29px;
+letter-spacing: 1.45px;
+}
+
+.year-yellow {
+    color: #DDCC44;
+}
+
+.year-blue {
+    color: #57B4F7;
+}
+
+.year-red {
+    color: #F00936;
+}
+
+.year-orange {
+    color: #DDAE44;
+}
+
+.year-marine {
+    color: #43C2AA;
+}
+
+.year-purple {
+    color: #A7AAE3;
+}
+
+.beginning-text {
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 0.65px;
+}
+
+.beginning__block-img {
+    position: relative;
+}
+
+.beginning__img-first {
+    z-index: 16;
+    top: -100px;
+    position: relative;
+    float: right;
+}
+
+.beginning__img-red,
+.beginning__img-orange,
+.beginning__img-purple {
+    margin-right: 25px;
+}
+
+.product {
+    margin-top: 1350px;
+    margin-bottom: 120px;
+}
+
+.fixed {
+    position:fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.fixed-first {
+    position: relative;
+    z-index: 2;
+}
+
+.fixed-second {
+    position: relative;
+    z-index: 4;
+}
+
+.fixed-third {
+    position: sticky;
+    z-index: 6;
+}
+
+.beer {
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 785px;
+}
+
+.beer-first {
+    background-image: url(../images/product-background1.png);
+    height: 785px;
+    padding-top: 250px;
+    padding-left: 14px;
+}
+
+
+.beer-second {
+    background-image: url(../images/product-background2.png);
+    height: 785px;
+    padding-top: 184px;
+    padding-left: 14px;
+}
+
+.beer-third {
+    position: relative;
+    background-image: url(../images/product-background3.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 785px;
+    padding-top: 250px;
+    padding-left: 14px;
+}
+
+
+
+
+.beer__name-first {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.beer__name-second {
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+
+.beer__name-third {
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+}
+
+
+.product__info{
+position: relative;
+}
+
+.tasting {
+    width: 366px;
+    position:absolute;
+    top: -350px;
+    left: 90%;
+    transform: translate(-50%,-50%);
+}
+
+.tasting__titile {
+    font-weight: 600;
+font-size: 32px;
+line-height: 46px;
+letter-spacing: 0.704px;
+color: #333333;
+}
+
+.tasting__text {
+    display: flex;
+    font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 1.53px;
+color: #333333;
+}
+
+.tasting__text p {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripton__content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 170px;
+    margin-bottom: 30px;
+}
+
+.descripton__content + .descripton__content {
+    margin-left: 5px;
+
+}
+
+.description__img {
+    margin-right: 8px;
+}
+
+.description__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+}
+
+.description__text p {
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 1.625px;
+color: #333333;
+}
+
+.map {
+    margin-bottom: 150px;
+}
+
+.map__title {
+    position: relative;
+    top: 50px;
+    z-index: -2;
+    text-align: center;
+    font-size: 110px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D8E4FC;
+}
+
+.map__content {
+    margin-top: 45px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+
+.map__content-title {
+    margin-bottom: 5px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 1.32px;
+}
+
+.map__content-text {
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.88px;
+}
+
+.map__content-phone {
+    text-align: right;
+}
+
+.footer {
+    background: url(../images/footerBG.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 0;
+    color: #fff;
+}
+
+.footer-wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer__logo-small {
+    display: none;
+}
+
+.footer__logo img {
+    max-width: 300px;
+}
+
+.footer__text {
+    font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 2.5px;
+margin-bottom: 15px;
+}
+
+.footer__text-welcome {
+    color:#81DBAE
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer__form-link {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 2.5px;
+background-color: #81DBAE;
+    padding: 10px 34px;
+}
+
+.footer__input {
+    padding: 10px 187px 10px 12px;
+    font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+margin-right: 25px;
+}
+
+.footer__middle {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 51px;
+}
+
+.footer__about {
+    margin-right: 140px;
+}
+
+.footer__middle-title {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 3px;
+}
+
+.footer__items + .footer__items {
+    margin-top: 12px;
+}
+
+.footer__items-link {
+    font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 3px;
+color: #FFFFFF;
+}
+
+.footer__adress {
+    margin-bottom: 40px;
+}
+
+.footer__adress-text {
+    padding: 30px 0;
+    font-weight: 500;
+font-size: 26px;
+line-height: 37px;
+letter-spacing: 3.25px;
+border: 1px solid #fff;
+border-left: none;
+border-right: none;
+}
+
+.footer__rights {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__rights-text {
+    font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+letter-spacing: 2.75px;
+}
+
+.footer__privacy-link {
+    font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+text-align: right;
+letter-spacing: 1.65px;
+color: #81DBAE;
+}
+
+.footer__privacy-link + .footer__privacy-link {
+    margin-left: 30px;
+}
+
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #81DBAE;
+    z-index: 20;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.mobile-nav.active {
+    display: flex;
+}
+
+.mobile-nav-list ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-nav-list li + li {
+    margin-top: 60px;
+}
+.mobile-nav__link {
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 14px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.visually-hidden {
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+@media(max-width: 1200px) {
+    .beginning__img {
+        max-width: 100%;
+    }
+
+    .tasting {
+        width: 366px;
+    }
+
+    .descripton__content {
+        max-width: 120px;
+    }
+
+    .fixed {
+        width: 100%;
+    }
+    .beer__image-first,
+    .beer__image-second,
+    .beer__image-third {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1094px) {
+    .slogan {
+        max-width: 60%;
+    }
+    .header__video-icon {
+        max-width: 84%;
+    }
+    .video {
+        height: 85vh;
+        max-width: 100%;
+    }
+
+    .beer__name-first,
+    .beer__name-second,
+    .beer__name-third {
+        max-width: 100%;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+    
+    .footer__logo-small {
+        display: inline-block;
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .beginning__content,
+    .beginning__content-purple,
+    .beginning__content-marine,
+    .beginning__content-orange,
+    .beginning__content-red,
+    .beginning__content-second {
+        margin-bottom: 80px;
+        position: static;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .beginning__content {
+        flex-direction: column-reverse;
+    }
+
+    .beginning__img {
+        margin-bottom: 20px;
+    }
+
+    .product {
+        margin-top: 300px;
+    }
+
+        .fixed {
+            position: static;
+            max-width: 98%;
+            top: 0;
+            left: 50%;
+            transform: translate(0%,0%);
+        }
+
+
+
+        .tasting {
+            width: 380px;
+            position: absolute;
+            top: -130px;
+            left: 52%;
+            transform: translate(-50%,-50%);
+        }
+        .tasting__titile,
+        .tasting__text p {
+            color: #fff;
+        }
+
+        .description {
+            flex-wrap: nowrap;
+        }
+
+        .description__img {
+            display: none;
+        }
+
+        .descripton__content {
+            margin-right: 12px;
+        }
+
+        .description__title {
+            color: #fff;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .description__text p {
+            color: #fff;
+            font-size: 10px;
+            line-height: 15px;
+            letter-spacing: 1.4px;
+        }
+
+        .beer__image-first,
+        .beer__image-second,
+        .beer__image-third {
+            max-width: 99%;
+        }
+    
+}
+
+@media(max-width: 991px) {
+    .header__menu {
+        display: none;
+    }
+
+    .beer__image-first,
+    .beer__image-second,
+    .beer__image-third {
+        max-width: 100%;
+    }
+
+    .footer__input {
+        padding: 10px 100px 10px 12px;
+    }
+
+    .footer__adress-text {
+        padding: 20px 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+    }
+    
+    
+    .footer__rights-text {
+    font-size: 18px;
+    }
+}
+
+@media(max-width: 769px) {
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo-small {
+        display: inline-block;
+    }
+
+    .beer__image-first,
+    .beer__image-second,
+    .beer__image-third {
+        padding-top: 94px;
+    }
+
+    .map__title {
+        top: 30px;
+        font-size: 70px;
+    }
+
+    .map__content {
+        text-align: center;
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .map__content-info {
+        margin-bottom: 20px;
+    }
+
+    .map__content-phone {
+        text-align: center;
+    }
+
+
+    .footer__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .footer__logo-small {
+        margin-bottom: 86px;
+    }
+
+    .footer__newsletter {
+        text-align: center;
+    }
+
+    .footer__form {
+        flex-direction: column;
+    }
+
+    .footer__text {
+        margin-bottom: 0;
+    }
+
+    .footer__input {
+        padding: 10px 25px 10px 12px;
+        margin: 20px auto;
+    }
+
+    .footer__form-link {
+        padding: 10px 105px;
+    }
+
+    .footer__middle {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 85px;
+    }
+    
+    .footer__about {
+        margin-right: 40px;
+    }
+
+    .footer__bottom {
+        text-align: center;
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    
+    .footer__rights {
+        flex-direction: column;
+    }
+
+    .footer__privacy {
+        margin-top: 15px;
+    }
+
+    .footer__adress-text {
+        font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+letter-spacing: 1.6px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .image__first {
+        background: url(../images/name-white.png);
+    }
+    .image__second {
+        background: url(../images/name-white2.png );
+        position: relative;
+        left: 28%;
+        top: -60%;
+        background-repeat: no-repeat;
+        padding-top: 400px;
+    }
+    .image__third {
+        background: url(../images/name-white3.png);
+    }
+
+    .image__first,
+    .image__third {
+        position: relative;
+        left: 28%;
+        top: -68%;
+        background-repeat: no-repeat;
+        padding-top: 400px;
+    }
+
+    .beer__image-first,
+    .beer__image-second {
+        margin-top: 30px;
+        max-width: 110%;
+        margin-left: -60px;
+    }
+
+    .beer__image-third {
+        max-width: 110%;
+        margin-left: -35px;
+    }
+
+    .beer__name-first,
+    .beer__name-second,
+    .beer__name-third {
+        display: none;
+    }
+
+    .fixed {
+     width: 120%;
+    }
+} 
+
+@media (max-width: 500px) {
+
+    .beer__image-first,
+    .beer__image-second,
+    .beer__image-third {
+        max-width: 750px;
+        margin-left: -180px;
+    }
+
+    .image__first,
+    .image__third {
+        left: 20%;
+        top: -77%;
+    }
+
+    .image__second {
+        left: 25%;
+        top: -72%;
+    }
+
+    .map__title {
+        top: 15px;
+        font-size: 36px;
+    }
+
+    .map__content-title {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1.3px;
+    }
+
+    .map__content-text {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.8px;
+    }
+
+}
+
+@media (max-width: 425px)  {
+    .description {
+        flex-wrap: wrap;
+    }
+
+    .tasting {
+        width: 280px;
+    }
+
+    .descripton__content {
+
+        max-width: 120px;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .beginning-text {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.6px;
+    }
+
+    .beer__image-first,
+    .beer__image-second,
+    .beer__image-third {
+        max-width: 750px;
+        margin-left: -220px;
+    }
+
+    .image__first,
+    .image__second,
+    .image__third {
+        left: 15%;
+
+    }
+
+
+
+    .footer__text {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .footer__input {
+        padding: 10px 1px 10px 12px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .footer__form-link {
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 29px;
+        letter-spacing: 2.5px;
+        background-color: #81DBAE;
+        padding: 10px 63px;
+    }
+
+    .footer__middle-title {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .footer__items-link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .footer__items + .footer__items {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .beer__image-first,
+    .beer__image-second,
+    .beer__image-third {
+        max-width: 700px;
+        margin-left: -220px;
+    }
+
+    .image__first,
+    .image__second,
+    .image__third {
+        left: 0%;
+
+    }
+
+}
